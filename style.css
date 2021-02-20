@@ -1,0 +1,295 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+a{
+
+	text-decoration: none;
+}
+.header{
+	background: linear-gradient(#4D68A1,#3B5998,#3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #133783;
+}
+.mid{
+
+	width: 80%;
+	margin: auto;
+}
+.logo{
+	width: 60%;
+	float: left;
+	margin-top: 23px;
+	cursor: pointer;
+
+}
+.login-area{
+
+	width: 40%;
+	float: left;
+}
+.login1 input, .login2 input{
+
+	display: block;
+	border: 1px solid #1d2a5b;
+	margin-top: 3px;
+	padding: 3px;
+}
+.login1, .login2, .login3{
+	float: left;
+	margin-right: 10px;
+
+}
+.login1 label, .login2 label{
+
+	color: #fff;
+	font-size: 12px;
+
+}
+.login2 a{
+
+	font-size: 12px;
+	color: #9cb4d8 ;
+
+}
+.login2 a:hover{
+
+	text-decoration: underline;
+}
+
+.login1 label:hover, .login2 label:hover{
+
+	cursor: pointer;
+}
+.login3 input{
+
+	color: #fff;
+	font-weight: bold;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	font-size: 12px;
+	padding: 3px 4px;
+	cursor: pointer;
+	margin-top: 24px;
+}
+/*facebook header style end*/
+
+/*facebook body style start*/
+.Facebook-body{
+
+	background: linear-gradient(#FFFFFF,#E8EBF3,#D4D9E9);
+	overflow: hidden;
+}
+.body-left{
+
+	width: 55%;
+	float: left;
+}
+.body-right{
+	width: 45%;
+	float: left;
+}
+.body-left h2{
+	color: #0e385f;
+	font-size: 20px;
+	margin-top: 40px;
+	width: 80%;
+}
+.body-right h1{
+
+	font-size: 36px;
+	color: #333;
+	margin-top: 20px;
+}
+.body-right h3{
+
+	color: #1d2129;
+	font-size: 19px;
+	font-weight: normal;
+}
+.res{
+	margin-top: 20px;
+	width: 86%;
+}
+
+.res input{
+width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 9px;
+	 padding: 8px 10px;
+	 font-size: 18px;
+	 border: 1px solid #bdc7d8 ;
+	 border-radius: 5px;
+	 color: #777;
+}
+.res input:nth-child(1){
+
+	width: 49%;
+}
+.res input:nth-child(2){
+
+	width: 49%;
+	float: right;
+}
+.birthday{
+	margin-top: 10px;
+	overflow: hidden;
+	
+}
+
+.birthday h2{
+
+font-size: 18px;
+color: #1d2129;
+font-weight: normal;
+margin-bottom: 10px;
+}
+.birthday select{
+
+	font-size: 13px;
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	float: left;
+}
+.birthday a{
+
+	width: 150px;
+	font-size: 11px;
+	color: #000;
+	display: inline-block;
+	margin-left: 10px;
+	color: #365899;
+
+}
+.birthday a:hover{
+
+	text-decoration: underline;
+}
+
+.gender{
+	margin-top: 15px;
+}
+
+.gender p{
+
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+
+}
+
+.gender p a{
+	color: #365899;
+}
+.gender a:hover{
+	text-decoration: underline;
+}
+
+.gender label{
+	font-size: 18px;
+	color: #1d2129;
+	vertical-align: top;
+}
+
+.button p{
+	font-size: 13px;
+	font-weight: bold; 
+	color: #666;
+	margin: 20px 0px;
+}
+
+.button p a{
+	color: #365899;
+}
+
+.button p a:hover {
+	text-decoration: underline;
+}
+
+.button input {
+	padding: 7px 20px;
+	font-size: 19px;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	color: #FFF;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+
+}
+
+.button input:hover {
+	background:  linear-gradient(#79bc64, #578843);
+}
+
+
+
+footer{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+footer p{
+	border-bottom: 1px solid #dddfe2;
+	width: 100%;
+}
+
+
+footer p a {
+	color: #365899;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+	margin-bottom: 12px;
+	padding: 4px 2px;
+}
+
+footer p a:nth-child(1){
+	color: #737373;
+}
+
+
+
+footer p a:nth-child(1):hover{
+	text-decoration: none;
+}
+
+footer p a:hover{
+	text-decoration: underline;
+}
+
+footer p:nth-child(2){
+	display: block;
+	margin-bottom: 20px;
+	border: none;
+}
+
+footer p:nth-child(2) a{
+	color: #365899;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+	width: 78px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer p a img{
+	vertical-align: middle;
+}
+
+footer h6{
+	color: #737373;
+	margin-bottom: 20px;
+	font-size: 11px;
+	font-weight: normal;
+}
